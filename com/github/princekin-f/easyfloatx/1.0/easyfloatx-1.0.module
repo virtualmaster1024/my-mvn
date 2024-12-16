@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.princekin-f",
+    "module": "easyfloatx",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "kx7l53wcvbfx5par7pztnbpygu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "easyfloatx-1.0.aar",
+          "url": "easyfloatx-1.0.aar",
+          "size": 137021,
+          "sha512": "4a91afe42e926a2be5dbdfbf11715f38808169fdf4f8236ac23d4986fdf6f354d0813285e6030745e3953a691a050f5b27c595e8ab478d5d4dcc2d512af0c881",
+          "sha256": "dbc5af6d88d86eba11e5cb2c568d094b379cd248203bccb708a2080333d7d6cf",
+          "sha1": "52ccaf4a031ae7fd88e369d9ba23f79ea1fe3625",
+          "md5": "b30f530b9e492dcd0012992c47a6299b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easyfloatx-1.0.aar",
+          "url": "easyfloatx-1.0.aar",
+          "size": 137021,
+          "sha512": "4a91afe42e926a2be5dbdfbf11715f38808169fdf4f8236ac23d4986fdf6f354d0813285e6030745e3953a691a050f5b27c595e8ab478d5d4dcc2d512af0c881",
+          "sha256": "dbc5af6d88d86eba11e5cb2c568d094b379cd248203bccb708a2080333d7d6cf",
+          "sha1": "52ccaf4a031ae7fd88e369d9ba23f79ea1fe3625",
+          "md5": "b30f530b9e492dcd0012992c47a6299b"
+        }
+      ]
+    }
+  ]
+}
