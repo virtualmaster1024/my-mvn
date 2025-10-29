@@ -3,12 +3,13 @@
   <groupId>im.amomo.andun7z</groupId>
   <artifactId>libraryx</artifactId>
   <versioning>
-    <latest>1.2.2</latest>
-    <release>1.2.2</release>
+    <latest>1.2.3</latest>
+    <release>1.2.3</release>
     <versions>
       <version>1.2.1</version>
       <version>1.2.2</version>
+      <version>1.2.3</version>
     </versions>
-    <lastUpdated>20250921082841</lastUpdated>
+    <lastUpdated>20251029074520</lastUpdated>
   </versioning>
 </metadata>
